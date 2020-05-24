@@ -31,5 +31,5 @@ class Bullet(Sprite):
         self.rect.y = self.y
 
     def draw_bullet(self):
-        """Draw bullet on the screen."""
+        """Draw bullet on the screen.yeya"""
         pygame.draw.rect(self.screen, self.color, self.rect)
